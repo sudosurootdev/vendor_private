@@ -1,9 +1,7 @@
-vendor_vanir-private
+vendor_private
 ====================
 
-My Private Tweaks included from:
-
-    vendor/vanir/products/common.mk
+My Private Tweaks
 
 
 

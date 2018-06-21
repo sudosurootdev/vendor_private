@@ -12,10 +12,12 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     service.adb.root=1 \
     ro.adb.secure=0
 
+SSR_VERSION := 8.1
+
 # build.prop overrides
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.developer.name=sudosurootdev \
-    ro.sudosurootdev.version="$(VANIR_VERSION)"-"$(shell date +"%Y%m%d-%H:%M:%S")"
+    ro.sudosurootdev.version="$(SSR_VERSION)"-"$(shell date +"%Y%m%d-%H:%M:%S")"
 
 # Added Files
 PRODUCT_COPY_FILES += \
